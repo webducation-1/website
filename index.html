@@ -3,31 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Minimal Portfolio</title>
+    <title>Portfolio</title>
     <style>
         body {
             display: flex;
-            justify-content: center;
+            flex-direction: column;
             align-items: center;
-            min-height: 100vh;
+            justify-content: center;
+            height: 100vh;
             margin: 0;
             font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
-        }
-        .container {
-            text-align: center;
-            background-color: white;
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
         }
         h1 {
-            color: #333;
+            color: #007BFF;
         }
-        a {
-            color: #4CAF50;
-            text-decoration: none;
-            margin: 0 10px;
+        .category {
+            color: #FF6347;
+            font-weight: bold;
         }
         footer {
             margin-top: 20px;
@@ -36,17 +28,18 @@
     </style>
 </head>
 <body>
-    <div class="container">
-        <h1>Hello, I'm [Your Name]!</h1>
-        <p>Welcome to my portfolio. Check out my projects below.</p>
-        <p>
-            <a href="#">Project 1</a> |
-            <a href="#">Project 2</a> |
-            <a href="#">Project 3</a>
-        </p>
-        <footer>
-            <p>Contact me at: <a href="mailto:your-email@example.com">your-email@example.com</a></p>
-        </footer>
+    <h1>Hi, I'm Alex Tighe 😊</h1>
+    <div>
+        <div class="category">News</div>
+        <div class="category">Narrative</div>
+        <div class="category">Politics</div>
+        <div class="category">Comedy</div>
+        <div class="category">Write</div>
+        <div class="category">Code</div>
+        <div class="category">Live Events</div>
     </div>
+    <footer>
+        <p>Contact: alex.tighe@example.com</p>
+    </footer>
 </body>
 </html>
